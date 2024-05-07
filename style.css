@@ -1,5 +1,68 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #D4A76A; /*colors updated to match instructions */
+}
+
+header {
+    background-color: #FFDBAA; 
+    color: #553100; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #553100; 
+    text-decoration: none;
+}
+
+.promo {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.promo article {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+button {
+    background-color: #805215; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #553100; 
+}
+
+.about {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
